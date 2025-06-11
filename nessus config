@@ -1,1 +1,11 @@
 /opt/nessus/sbin/nessuscli fetch --challenge
+
+
+Tenable logo
+Generate a license for Nessus 6.3 and Later
+
+To generate a license for an older version of Nessus click here.
+
+You can find your activation code by signing into or setting a password for your Tenable Community account.
+Run nessuscli fetch --challenge on your nessusd server and copy the result below
+Enter your activation code below 
