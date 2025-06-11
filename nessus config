@@ -1,11 +1,12 @@
-┌──(root㉿kali)-[/home/kali/Pictures]
-└─# cd /home/kali/Downloads 
-                                                                                                                                                                                                              
-┌──(root㉿kali)-[/home/kali/Downloads]
-└─# ls
-Nessus-10.8.4-ubuntu1604_amd64.deb
-                                                                                                                                                                                                              
-┌──(root㉿kali)-[/home/kali/Downloads]
-└─# 
+sudo dpkg -i Nessus-10.8.4-ubuntu1604_amd64.deb
 
 
+
+sudo apt --fix-broken install
+
+
+sudo systemctl start nessusd
+
+
+
+https://localhost:8834
