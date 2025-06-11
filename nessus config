@@ -9,3 +9,5 @@ To generate a license for an older version of Nessus click here.
 You can find your activation code by signing into or setting a password for your Tenable Community account.
 Run nessuscli fetch --challenge on your nessusd server and copy the result below
 Enter your activation code below 
+https://www.tenable.com/products/nessus/activation-code
+
