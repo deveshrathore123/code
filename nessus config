@@ -1,21 +1,11 @@
-installlation
-
-cd ~/Downloads
-wget https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-debian10_amd64.deb
-sudo dpkg -i Nessus-10.8.3-debian10_amd64.deb
-sudo apt --fix-broken install
-
-
-                                                                                                                                                                                                            
+┌──(root㉿kali)-[/home/kali/Pictures]
+└─# cd /home/kali/Downloads 
+                                                                                                                                                                                                              
 ┌──(root㉿kali)-[/home/kali/Downloads]
-└─# wget https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-debian10_amd64.deb
---2025-06-11 12:01:46--  https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-debian10_amd64.deb
-Resolving www.tenable.com (www.tenable.com)... 104.16.48.5, 104.16.49.5, 2606:4700:90c2:32fa:8964:53e:6810:3005
-Connecting to www.tenable.com (www.tenable.com)|104.16.48.5|:443... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2025-06-11 12:01:49 ERROR 404: Not Found.
+└─# ls
+Nessus-10.8.4-ubuntu1604_amd64.deb
+                                                                                                                                                                                                              
+┌──(root㉿kali)-[/home/kali/Downloads]
+└─# 
 
-                                            
-wget https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-debian10_amd64.deb
 
-https://www.tenable.com/downloads/nessus?loginAttempted=true
