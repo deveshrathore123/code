@@ -1,0 +1,62 @@
+🔹 Step-by-Step Tasks (with SS points)
+1. Install Nessus
+Go to: https://www.tenable.com/products/nessus
+
+Download the latest Nessus version for your OS.
+
+Install and launch the Nessus service.
+
+✅ Take Screenshot 1: Nessus installation screen or Nessus running in browser.
+
+2. Create Nessus Account
+Create a Tenable Nessus Essentials account to receive an activation code.
+
+Activate Nessus with the code.
+
+✅ Take Screenshot 2: Activation successful or Nessus dashboard after login.
+
+3. Set Up New Scan
+Click "New Scan" in the Nessus dashboard.
+
+Choose "Basic Network Scan" or "Advanced Scan" depending on your target.
+
+Set target IP addresses or hostnames.
+
+✅ Take Screenshot 3: Scan configuration settings before launch.
+
+4. Launch Scan
+Click “Save” and then “Launch” the scan.
+
+Wait for the scan to complete (it may take a few minutes).
+
+✅ Take Screenshot 4: Scan in progress.
+
+5. View Scan Results
+Click on the scan to view vulnerabilities found.
+
+Explore vulnerability details, host information, and risk levels.
+
+✅ Take Screenshot 5: Vulnerabilities dashboard with at least one detected issue.
+
+6. Explore Plugins and Policies
+Go to the Plugins and Policies sections.
+
+See what scan types and plugin categories are available.
+
+✅ Take Screenshot 6: Plugins or Policies page.
+
+7. Perform Port Scanning
+Use Advanced Scan to specifically scan ports (enable Port Scanning plugins).
+
+✅ Take Screenshot 7: Results showing open ports.
+
+8. Vulnerability Mapping
+Use graphical or table-based maps to relate vulnerabilities to systems.
+
+✅ Take Screenshot 8: Vulnerability map or graph view.
+
+9. Export Results
+Export the report in HTML or PDF format from Nessus.
+
+✅ Take Screenshot 9: Export options or downloaded report preview.
+
