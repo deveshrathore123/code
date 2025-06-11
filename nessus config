@@ -1,12 +1,9 @@
-sudo dpkg -i Nessus-10.8.4-ubuntu1604_amd64.deb
 
+Nessus
+Welcome to Nessus
+Choose how you want to deploy Nessus. Select a product to get started.
+Nessus Expert
+Nessus Professional
+Nessus Manager
+Managed Scanner
 
-
-sudo apt --fix-broken install
-
-
-sudo systemctl start nessusd
-
-
-
-https://localhost:8834
