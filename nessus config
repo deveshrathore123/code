@@ -1,9 +1,13 @@
+Jun 11 12:10:05 kali systemd[1]: Started nessusd.service - The Nessus Vulnerability Scanner.
+Jun 11 12:10:08 kali nessus-service[10426]: Cached 0 plugin libs in 1msec
+Jun 11 12:10:08 kali nessus-service[10426]: Cached 0 plugin libs in 0msec
+                                                                                                                                                                                                              
+┌──(root㉿kali)-[/home/kali/Downloads]
+└─# nessuscli fetch --challenge
+nessuscli: command not found
+                                                                                                                                                                                                              
+┌──(root㉿kali)-[/home/kali/Downloads]
+└─# 
 
-Nessus
-Welcome to Nessus
-Choose how you want to deploy Nessus. Select a product to get started.
-Nessus Expert
-Nessus Professional
-Nessus Manager
-Managed Scanner
+
 
