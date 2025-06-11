@@ -16,3 +16,6 @@ HTTP request sent, awaiting response... 404 Not Found
 2025-06-11 12:01:49 ERROR 404: Not Found.
 
                                             
+wget https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-debian10_amd64.deb
+
+https://www.tenable.com/downloads/nessus?loginAttempted=true
