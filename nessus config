@@ -1,9 +1,2 @@
-sudo find / -name nessuscli 2>/dev/null
-
-/opt/nessus/sbin/nessuscli
-
-
 sudo /opt/nessus/sbin/nessuscli fetch --challenge
 
-
-https://www.tenable.com/products/nessus/activation-code
