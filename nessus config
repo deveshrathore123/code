@@ -1,6 +1,9 @@
+sudo find / -name nessuscli 2>/dev/null
 
-Nessus
-Register Nessus
-To get a license key, visit the Offline Registration site and enter the following challenge code: 31d897d88a5e3bbb65fe4b182538f20fcde34d7c
-Nessus License Key *
-31d897d88a5e3bbb65fe4b182538f20fcde34d7c31d897d88a5e3bbb65fe431d897d88a5e3bbb65fe4b182538f20fcde34d7cb182538f20fcde34d7c
+/opt/nessus/sbin/nessuscli
+
+
+sudo /opt/nessus/sbin/nessuscli fetch --challenge
+
+
+https://www.tenable.com/products/nessus/activation-code
