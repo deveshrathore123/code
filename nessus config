@@ -1,13 +1,6 @@
-Jun 11 12:10:05 kali systemd[1]: Started nessusd.service - The Nessus Vulnerability Scanner.
-Jun 11 12:10:08 kali nessus-service[10426]: Cached 0 plugin libs in 1msec
-Jun 11 12:10:08 kali nessus-service[10426]: Cached 0 plugin libs in 0msec
-                                                                                                                                                                                                              
-┌──(root㉿kali)-[/home/kali/Downloads]
-└─# nessuscli fetch --challenge
-nessuscli: command not found
-                                                                                                                                                                                                              
-┌──(root㉿kali)-[/home/kali/Downloads]
-└─# 
 
-
-
+Nessus
+Register Nessus
+To get a license key, visit the Offline Registration site and enter the following challenge code: 31d897d88a5e3bbb65fe4b182538f20fcde34d7c
+Nessus License Key *
+31d897d88a5e3bbb65fe4b182538f20fcde34d7c31d897d88a5e3bbb65fe431d897d88a5e3bbb65fe4b182538f20fcde34d7cb182538f20fcde34d7c
