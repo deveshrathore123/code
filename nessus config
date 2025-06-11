@@ -1,15 +1,118 @@
-/opt/nessus/sbin/nessuscli fetch --challenge
-
-
-Tenable logo
-Generate a license for Nessus 6.3 and Later
-
-To generate a license for an older version of Nessus click here.
-
-You can find your activation code by signing into or setting a password for your Tenable Community account.
-Run nessuscli fetch --challenge on your nessusd server and copy the result below
-Enter your activation code below 
-https://www.tenable.com/products/nessus/activation-code
-
-sihoket766@pngzero.com
-https://maildrop.cc/inbox/?mailbox=devesh
+MBIS4006 Information Systems Security @ Australian Institute of Higher Education, Sydney 
+Lab 2 
+Aim: Use the Nessus tool to scan the network for vulnerabilities. 
+Objectives: Objective of the module is scan system and network analysis. 
+Outcomes: The learner will be able to: 
+• Identify network vulnerability with tool 
+• Use current techniques, skills, and tools to find out different vulnerabilities and the 
+countermeasures for identified vulnerabilities. 
+Hardware / Software Required: Nessus Vulnerability Scanner | Tenable Network Security 
+tool 
+Theory: 
+Nessus is a proprietary comprehensive vulnerability scanner which is developed by Tenable 
+Network Security. It is free of charge for personal use in a non-enterprise environment. 
+Operation 
+• Nessus allows scans for the following types of vulnerabilities. 
+• Vulnerabilities that allow a remote hacker to control or access sensitive data on a 
+system. 
+• Misconfiguration (e.g. open mail relay, missing patches, etc.). 
+Default passwords, a few common passwords, and blank/absent passwords on some system 
+accounts. Nessus can also call Hydra (an external tool) to launch a dictionary attack. Denials 
+of service against the TCP/IP stack by using malformed packets. 
+Preparation for PCI DSS audits 
+On UNIX (including Mac OS X), it consists of nessusd, the Nessus daemon, which does the 
+scanning, and nessus, the client, which controls scans and presents the vulnerability results to 
+the user. In typical operation, Nessus begins by doing a port scan with one of its four internal 
+port scanners (or it can optionally use AmapM or Nmap) to determine which ports are open 
+on the target and then tries various exploits on the open ports. The vulnerability tests, 
+available as subscriptions, are written in NASL (Nessus Attack Scripting Language), a 
+scripting language optimized for custom network interaction. Tenable Network Security 
+produces several dozen new vulnerability checks (called plugins) each week, usually on a 
+daily basis. These checks are available for free to the general public; commercial customers 
+are not allowed to use this Home Feed any more. The Professional Feed (which is not free) 
+also give access to support and additional scripts (e.g. audit files, compliance tests, additional 
+vulnerability detection plugins). Optionally, the results of the scan can be reported in various 
+MBIS4006 Information Systems Security @ Australian Institute of Higher Education, Sydney 
+formats, such as plain text, XML, HTML and LaTeX. The results can also be saved in a 
+knowledge base for debugging. On UNIX, scanning can be automated through the use of a 
+command-line client. There exist many different commercial, free and open source tools for 
+both UNIX and Windows to manage individual or distributed Nessus scanners. If the user 
+chooses to do so (by disabling the option 'safe checks'), some of Nessus' vulnerability test 
+may try to cause vulnerable services or operating systems to crash. This lets a user test the 
+resistance of a device before putting it in production. Nessus provides additional functionality 
+beyond testing for known network vulnerabilities. For instance, it can use Windows 
+credentials to examine patch levels on computers running the Windows operating system, and 
+can perform password auditing using dictionary and brute force methods. Nessus 3 and later 
+can also audit systems to make sure they have been configured per a specific policy, such as 
+the NSA's guide for hardening Windows servers. 
+Basic Network scanning: 
+MBIS4006 Information Systems Security @ Australian Institute of Higher Education, Sydney 
+Advanced scanning in general search: 
+Ntstat port scanning: 
+MBIS4006 Information Systems Security @ Australian Institute of Higher Education, Sydney 
+Vulnerability Mapping: 
+MBIS4006 Information Systems Security @ Australian Institute of Higher Education, Sydney 
+ 
+Policies: 
+ 
+ 
+ 
+Plugins: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MBIS4006 Information Systems Security @ Australian Institute of Higher Education, Sydney 
+ 
+General Scanning: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MBIS4006 Information Systems Security @ Australian Institute of Higher Education, Sydney 
+Port Scanning: 
+Conclusion: 
+Running a security scanner against your systems is a very important part of the job. It is a 
+system administrator or security officer’s job to keep their systems secure and the data 
+contained in them safe. Hackers have access to all the same information and tools that the rest 
+of us do. Hackers run the very same tools and it is advantageous to know what the results are 
+that they see if they scan your system. They find time to do the research, so we must also. 
+Nessus provides a lot of functionality in one tool. It utilizes Nmap, easy to update plug-ins, and 
+nice reporting tools for upper management. It is has repeatedly scored high on comparisons 
+between scanners including commercial scanners that come with a hefty price tag. And of 
+course as budgets tighten, remember Nessus is a free tool. The only cost is the users time in 
+learning it and using it, but that is a cost associated with all tools. And luckily Nessus is an 
+easy to learn tool. Using this tool and seeing the vulnerabilities will help you gain knowledge 
+of your systems and help teach you how to protect them. 
+MBIS4006 Information Systems Security @ Australian Institute of Higher Education, Sydney 
+Questions: 
+Submit the screenshots of your lab and the answers to the below questions in a document file 
+(.doc/.pdf) 
+1. What’s the current version of Nessus? 
+2. What OS platforms does Nessus have builds for?
+ 3. What are the system/hardware requirements for using Nessus?
+ 4. What is the heart of the nessus?
+ 5. When using the Nessus user interface, which of browsers are supported? 
