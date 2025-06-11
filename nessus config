@@ -1,2 +1,15 @@
-sudo /opt/nessus/sbin/nessuscli fetch --challenge
+──(root㉿kali)-[/home/kali/Downloads]
+└─# sudo /opt/nessus/sbin/nessuscli fetch --challenge
+
+Challenge code: 31d897d88a5e3bbb65fe4b182538f20fcde34d7c
+
+You can copy the challenge code above and paste it alongside your
+Activation Code at:
+https://plugins.nessus.org/v2/offline.php
+                                                                                                                                                                                                              
+┌──(root㉿kali)-[/home/kali/Downloads]
+└─# 31d897d88a5e3bbb65fe4b182538f20fcde34d7c
+
+
+
 
