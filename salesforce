@@ -1,0 +1,337 @@
+# 🚀 1-Year Salesforce DevOps Engineer Roadmap (For Devesh)
+
+**Goal:** Become an expert-level Salesforce DevOps Engineer in 1 year by learning 1 hour per day.
+
+---
+
+## ✅ Month 1: Salesforce Fundamentals & Ecosystem
+
+### Week 1:
+
+* Create a free [Salesforce Developer Org](https://developer.salesforce.com/signup)
+* Understand what Salesforce is: CRM, Metadata, AppExchange, Clouds (Sales, Service, Experience)
+* Learn core terminology: Org, Sandbox, Metadata, Object, Record, Apex, Flow, Change Set
+* Trailhead Module: "Salesforce Platform Basics"
+
+### Week 2:
+
+* Learn the Salesforce Org hierarchy: Production, Sandbox (Dev, Partial, Full), Scratch Orgs
+* Understand Users, Profiles, Permission Sets, Roles, Sharing Rules
+* Trailhead Module: "User Access & Permissions"
+
+### Week 3:
+
+* Explore Salesforce Metadata: Apex Class, Trigger, Page Layout, Validation Rule, Workflow Rule
+* Install and explore **VS Code + Salesforce Extension Pack**
+* Learn how metadata is structured in SFDX projects
+
+### Week 4:
+
+* Get hands-on with creating custom objects and fields in the Developer Org
+* Trailhead Module: "Data Modeling" and "App Customization"
+* Start a GitHub repo for your Salesforce DevOps journey
+
+---
+
+## 📊 Month 2: Salesforce CLI (SFDX) & Source Control
+
+### Week 5:
+
+* Install Salesforce CLI (SFDX)
+* Authenticate your Developer Org using SFDX
+* Create and manage scratch orgs
+
+### Week 6:
+
+* Learn how to retrieve and deploy metadata using SFDX
+
+  * `sfdx force:source:retrieve`
+  * `sfdx force:source:deploy`
+* Convert metadata formats (source <-> mdapi)
+
+### Week 7:
+
+* Learn about source control in Salesforce
+* Connect SFDX with Git: initialize, commit, push changes
+* Branching strategy: feature branches, PRs, Git Flow
+
+### Week 8:
+
+* Start building a basic DevOps repo:
+
+  * `src` folder with sample metadata
+  * `.sfdx`, `.gitignore`, `package.json`
+  * Markdown readme with your progress
+
+---
+
+## ⚖️ Month 3: CI/CD Basics for Salesforce
+
+### Week 9:
+
+* Learn how Salesforce deployments traditionally work:
+
+  * Change Sets (manual)
+  * ANT Migration Tool (legacy)
+  * Metadata API vs Tooling API
+
+### Week 10:
+
+* Build your first GitHub Actions CI pipeline:
+
+  * Pull metadata from main
+  * Run deployment script with SFDX
+
+### Week 11:
+
+* Add validations to pipeline:
+
+  * Run `sfdx force:source:convert`
+  * Test Apex Classes
+  * Notify via email or Slack
+
+### Week 12:
+
+* Project 1: Deploy sample metadata (Custom Object + Apex Trigger) from one org to another using SFDX + GitHub Actions
+* Push to GitHub with screenshots and documentation
+
+---
+
+## 🔄 Month 4: Tools - Gearset, Copado, Jenkins
+
+### Week 13:
+
+* Learn Gearset basics:
+
+  * Connect sandbox and GitHub
+  * Compare and deploy metadata
+  * Schedule daily backups
+
+### Week 14:
+
+* Setup Gearset CI pipeline
+
+  * Automate changes between Dev, UAT, and Prod
+  * Configure unit test execution and rollback
+
+### Week 15:
+
+* Learn basics of Copado
+
+  * Work Items, User Stories
+  * Pipelines, Environments, Commit, Promote, Deploy
+
+### Week 16:
+
+* Jenkins pipeline for Salesforce:
+
+  * Setup Jenkins job
+  * Execute SFDX commands via shell script
+  * Notify via email
+
+---
+
+## 🏑 Month 5: Sandboxes, Environments & Governance
+
+### Week 17:
+
+* Understand different Sandbox types (Dev, Dev Pro, Partial, Full)
+* Create and refresh sandboxes
+* Manage access control and data seeding
+
+### Week 18:
+
+* Plan sandbox strategy: Dev -> UAT -> Staging -> Prod
+* Data migration tools: Data Loader, Workbench
+
+### Week 19:
+
+* Sandbox data masking, test data generation
+* Environment naming, locking, and governance rules
+
+### Week 20:
+
+* Create reusable scripts for sandbox management and deployment logging
+
+---
+
+## 🤖 Month 6: Test Automation, Validation & Monitoring
+
+### Week 21:
+
+* Learn Apex Test Classes, Code Coverage, Best Practices
+* Run test classes via SFDX + CI tool
+
+### Week 22:
+
+* Add validations: linting, static code analysis (PMD for Apex)
+* Generate test reports from Jenkins/GitHub Actions
+
+### Week 23:
+
+* Setup monitoring: Slack, Email, Microsoft Teams alerts
+* Explore Salesforce Shield, Event Monitoring (optional)
+
+### Week 24:
+
+* Project 2: Full pipeline from sandbox commit -> test -> validate -> deploy -> notify
+
+---
+
+## 🔒 Month 7: Security, Compliance & Access
+
+### Week 25:
+
+* Learn Profiles, Permission Sets, Field-Level Security
+* Least privilege model in Salesforce
+
+### Week 26:
+
+* Secrets Management: Store credentials for CI securely (GitHub Secrets, Jenkins Credentials)
+* Explore Vault if integrating cloud infra
+
+### Week 27:
+
+* Salesforce DX User Management scripts
+* Manage multiple user roles for testing environments
+
+### Week 28:
+
+* Audit logs, login history, deployment tracking
+
+---
+
+## 🏐 Month 8: Advanced Metadata + Cross-cloud Deployment
+
+### Week 29:
+
+* Handle tricky metadata: Profiles, Permission Sets, Record Types
+* Resolve common deployment errors
+
+### Week 30:
+
+* Multi-org deployments
+* Version control for multiple teams
+
+### Week 31:
+
+* Integrate with AWS/GCP
+* Store Salesforce backups in S3/Cloud Storage
+
+### Week 32:
+
+* Project 3: Multi-org metadata deployment + rollback strategy
+
+---
+
+## 🏋️‍♂️ Month 9: DevOps Governance & Documentation
+
+### Week 33:
+
+* Change Management policies in enterprises
+* Setup approval workflows before production push
+
+### Week 34:
+
+* Create DevOps Runbooks
+* Handle incident response and rollback
+
+### Week 35:
+
+* Document full release management lifecycle
+* Store metadata versions and rollback plans
+
+### Week 36:
+
+* Review past 3 projects and refine documentation
+
+---
+
+## 📚 Month 10: Certifications & Resume Prep
+
+### Week 37:
+
+* Study for "Salesforce Platform Developer I" (for Apex + Metadata)
+
+### Week 38:
+
+* Study for "Copado Fundamentals I" or "Gearset Certification"
+
+### Week 39:
+
+* Update resume to include:
+
+  * GitHub link
+  * Salesforce DevOps projects
+  * Keywords: SFDX, Copado, Gearset, CI/CD, Jenkins, Metadata API
+
+### Week 40:
+
+* Update LinkedIn
+* Ask for endorsements from mentors/managers
+
+---
+
+## 💼 Month 11: Interview Prep + Job Applications
+
+### Week 41:
+
+* Practice interview questions:
+
+  * Metadata types, SFDX, Git, CI/CD, rollback
+
+### Week 42:
+
+* Mock interview with a friend or mentor
+* Prepare 5-6 STAR format stories from your DevOps + Salesforce journey
+
+### Week 43:
+
+* Apply to:
+
+  * Salesforce consulting firms (Infosys, Deloitte, Cognizant)
+  * US startups
+  * Product companies using Salesforce
+
+### Week 44:
+
+* Continue applying + practice DSA (if needed for product-based companies)
+
+---
+
+## 🏆 Month 12: Polish + Final Project
+
+### Week 45:
+
+* Final Project:
+
+  * Real-world use case
+  * Multi-org deployment
+  * Full CI/CD + rollback + alerting
+
+### Week 46:
+
+* Record a YouTube/Portfolio video walkthrough
+
+### Week 47:
+
+* Apply to 10 companies per week
+* Focus on recruiter reachout via LinkedIn
+
+### Week 48:
+
+* Target job offers, negotiate salaries, prepare for onboarding
+
+---
+
+## 📊 Target Result
+
+> You’ll be fully job-ready Salesforce DevOps Engineer with:
+>
+> * 3 real-world projects
+> * GitHub portfolio
+> * Updated resume
+> * Certifications (optional but beneficial)
+> * ₹15–25 LPA salary range by mid-2026
+
+Let’s go! ✈️
