@@ -1,0 +1,52 @@
+Create dummy patient file
+
+Encrypt the file using GPG
+
+Successfully encrypted
+
+Generate hash of the file
+
+Simulate tampering
+
+Generate GPG key
+
+Digitally sign the file
+
+Simulate running secure service
+
+Decrypt and open encrypted file
+
+Install sipcalc
+
+Check subnets
+
+Generate subnet tables
+
+Install VLAN package
+
+Create VLAN interfaces
+
+Assign IP addresses to VLAN interfaces
+
+Bring up the VLAN interfaces
+
+Verify VLANs are active and assigned correctly
+
+Draw or describe text-based network architecture
+
+Install Wireshark
+
+Start Wireshark
+
+Open France24 homepage in browser
+
+Observe Wireshark UI
+
+Save capture as france24_capture.pcapng
+
+Locate TLS handshake in Wireshark
+
+Locate TCP handshake in Wireshark
+
+Locate IP packet in Wireshark
+
