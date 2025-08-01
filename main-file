@@ -1,0 +1,221 @@
+**Network and Systems Security (CIS-4069-N)**
+**Full Practical Report for Final Submission**
+**Client: \[Your Client's Name]**
+**University: Teesside University**
+**Module Leader: Dr. Nauman Israr**
+**Deadline: 6 Aug 2025 @ 4:00pm**
+
+---
+
+## Part 1: General Cryptography Questions (25%)
+
+### Q1. Vigenère Cipher Encryption (5 Marks)
+
+* **Plaintext**: yourfullname (e.g., AliRehman)
+* **Key**: yourcity (e.g., Lahore)
+* **Tool Used**: Online Vigenère Cipher encoder (or Python script)
+
+**Steps:**
+
+1. Remove spaces and use lowercase for both key and message.
+2. Repeat the key to match the length of the message.
+3. Use Vigenère table or formula: `E(pi, ki) = (pi + ki) mod 26`
+
+**Screenshot 1**: Input form filled (name + key)
+**Screenshot 2**: Output of encrypted message
+**Screenshot 3**: Table or matrix used (optional)
+**Explanation**: A brief explanation of the polyalphabetic substitution method.
+
+---
+
+### Q2. Playfair Cipher Encryption (5 Marks)
+
+* **Text to Encrypt**: THIS IS A MESSAGE
+* **Key**: yourname (e.g., AliRehman)
+* Merge M/N and remove spaces
+
+**Steps:**
+
+1. Create 5x5 matrix from key
+2. Divide text into digraphs (pairs of letters)
+3. Apply Playfair rules:
+
+   * Same row: replace with letter to the right
+   * Same column: replace with letter below
+   * Else: swap corners of rectangle
+
+**Screenshot 4**: Key matrix used
+**Screenshot 5**: Input text processing
+**Screenshot 6**: Output of encryption
+**Explanation**: Step-by-step of 2–3 digraph encryptions.
+
+---
+
+### Q3. Three RSA Use Cases at Teesside (5 Marks)
+
+**Use Cases:**
+
+1. Email encryption (student & staff email security)
+2. Secure login to Moodle/Blackboard
+3. Digital signatures on submitted coursework
+
+**Screenshot 7**: Diagram showing key pair usage in those 3 cases
+
+---
+
+### Q4. Confidentiality, Integrity, Authentication (5 Marks)
+
+* **Explanation**: RSA achieves:
+
+  * Confidentiality: Encrypt with recipient’s public key
+  * Integrity: Hash + encrypt hash
+  * Authentication: Encrypt with sender’s private key
+
+**Screenshot 8**: Diagram showing RSA use in achieving all 3
+
+---
+
+### Q5. Diffie-Hellman with 3 Parties (5 Marks)
+
+* **Participants**: Alice, Bob, Carol
+* **Steps**:
+
+  1. Public prime p and base g
+  2. Each party selects private key (a, b, c)
+  3. Share g^a, g^b, g^c
+  4. Combine shared keys to compute same secret
+
+**Screenshot 9**: Diagram showing key exchange
+**Screenshot 10**: Sample calculation or simulation
+
+---
+
+## Part 2: Security Analysis (75%)
+
+### Scenario 1: Bell-LaPadula Model (500 words, 20 Marks)
+
+**Subjects**: Army, Navy, Air Force, Marines
+**Objects**: Documents/data
+**Security Levels**: High, Low
+**Rules**: No read up, no write down
+
+**Screenshot 11**: Security lattice diagram
+**Screenshot 12**: Table of access rights
+**Screenshot 13**: Model in diagram form (Visio or Draw\.io)
+**Explanation**: Apply model to real case, show how high-security level prevents data leaks
+**Strengths & Weaknesses**:
+
+* Strength: Formal, enforces confidentiality
+* Weakness: No integrity, complex for multi-level access
+
+---
+
+### Scenario 2: Conference Management System (1500-2000 words, 25 Marks)
+
+**1. Assets & Security Properties**
+
+* Papers: Confidentiality
+* Reviews: Integrity
+* Availability of system: Availability
+
+**Screenshot 14**: Table mapping assets to properties
+
+**2. Vulnerabilities**
+
+* MITM attack on submission
+* Unauthorized access to reviews
+
+**Screenshot 15**: Threat model diagram
+**Screenshot 16**: Attack tree
+
+**3. Protection Measures**
+
+* HTTPS for confidentiality
+* Input validation (SQLi/XSS prevention)
+* Role-based access control (RBAC)
+
+**Screenshot 17**: System login page simulation
+**Screenshot 18**: RBAC example (mock UI or config)
+**Screenshot 19**: HTTPS browser lock icon or server cert
+
+---
+
+### Scenario 3: Secure Network Design (2500+ words, 30 Marks)
+
+**Company**: Smith Logistics UK
+**Total Devices**: 1200
+**Address Range**: Class B IP Address (e.g., 172.16.0.0/16)
+
+#### 1. Network Design
+
+* 2 Core Routers
+* 2-4 Distribution Routers
+* 3 Access Layer switches per branch
+
+**Screenshot 20**: Logical Network Diagram (Visio or Cisco)
+**Screenshot 21**: Layered architecture labels
+**Screenshot 22**: VLAN design (per department)
+
+#### 2. IPv4 Subnetting
+
+* Use VLSM to divide networks per dept
+
+**Screenshot 23**: Subnet calculation table
+**Screenshot 24**: Router interface IP config
+**Screenshot 25**: Ping test between PCs
+
+#### 3. WAN Protocols & Security
+
+* WAN: OSPF
+* Layer 1: Fiber cables
+* Layer 2: VLAN tagging
+* Layer 3: ACLs, firewalls
+
+**Screenshot 26**: ACL config on router
+**Screenshot 27**: IDS system (simulated)
+**Screenshot 28**: Firewall simulation rules
+
+#### 4. Cost Table
+
+| Item      | Qty | Cost (GBP) | Total    |
+| --------- | --- | ---------- | -------- |
+| Routers   | 6   | 250        | 1500     |
+| Switches  | 30  | 100        | 3000     |
+| Cables    | 200 | 2          | 400      |
+| Servers   | 3   | 1000       | 3000     |
+| Licenses  | 20  | 50         | 1000     |
+| **Total** |     |            | **8900** |
+
+**Screenshot 29**: Table format + alternate cost
+
+#### 5. Legal & Ethical
+
+* Data Protection Act
+* Acceptable Use Policy
+* System logging & auditing
+
+**Screenshot 30**: Sample policy doc
+**Screenshot 31**: Logging example (CLI or UI)
+
+---
+
+## Final Touches
+
+* Add references (Harvard style) for each part
+* Ensure all screenshots are numbered and explained
+* Export final document as PDF
+
+---
+
+## Total Screenshots Checklist: 40+
+
+* Encryption: 6+
+* Models & Diagrams: 5+
+* Network: 10+
+* Tables/Designs: 5+
+* Simulations (Packet Tracer, Cisco): 10+
+* Docs & Policies: 4+
+
+---
+
+Let me know if you want me to generate any diagrams, code, or a packet tracer file!
